@@ -25,5 +25,5 @@ void pal() {
         printf("%d is not a palindrome number.\n", originalNum);
     }
 
-    #return 0;
+    //return 0;
 }
