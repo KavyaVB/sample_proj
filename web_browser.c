@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+void web() {
     // Define the website you want to display
     const char *url = "https://google.com";
     
@@ -30,5 +30,5 @@ int main() {
         printf("Unsupported operating system.\n");
     #endif
 
-    return 0;
+    //return 0;
 }
