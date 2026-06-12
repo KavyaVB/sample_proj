@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+void pal() {
     int num, originalNum, remainder;
     int reversedNum = 0;
 
@@ -25,5 +25,5 @@ int main() {
         printf("%d is not a palindrome number.\n", originalNum);
     }
 
-    return 0;
+    #return 0;
 }
